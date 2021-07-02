@@ -2,7 +2,7 @@
 
 ## To set up:
 
-````bash
+```bash
 conda create --name opentargets python=3.6 -y
 source activate opentargets
 pip install -r requirements.txt
