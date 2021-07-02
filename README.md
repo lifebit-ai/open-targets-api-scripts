@@ -9,3 +9,4 @@ pip install -r requirements.txt
 ```
 
 `api_test.py` contains query functions to test retrieval of data from Open Targets Platform.
+
