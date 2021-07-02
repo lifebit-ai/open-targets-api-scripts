@@ -1,36 +1,3 @@
-# conda create --name opentargets python=3.6 -y
-# source activate opentargets
-# pip install -r requirements.txt
-
-# from opentargets import OpenTargetsClient
-# ot = OpenTargetsClient()
-
-# # search for a target
-# search_result = ot.search('BRAF')
-# print(search_result[0])
-
-# # search associations for a target
-# a_for_target = ot.get_associations_for_target('BRAF')
-# for a in a_for_target:
-#     print(a['id'], a['association_score']['overall'])
-    
-# # search associations for a disease
-# a_for_disease = ot.get_associations_for_disease('cancer')
-
-# # get an association by ID
-# print(ot.get_association('ENSG00000157764-EFO_0005803')[0])
-
-# response = ot.get_associations_for_target('BRAF',
-#                 fields=['association_score.datasources',
-#                 'association_score.overall',
-#                 'target.gene_info.symbol',
-#                 'disease.efo_info.label']
-#         )
-# response
-
-#############################################################################################
-
-
 from opentargets import OpenTargetsClient
 from opentargets.statistics import HarmonicSumScorer
 
