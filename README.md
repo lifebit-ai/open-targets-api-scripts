@@ -8,4 +8,4 @@ source activate opentargets
 pip install -r requirements.txt
 ```
 
-`graphql_queries` contains examples in R, python and bash of using Open Targets Genetics API.
+`graphql_queries` contains examples in R, python and bash using Open Targets Genetics API.
