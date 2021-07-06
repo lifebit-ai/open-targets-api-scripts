@@ -1,10 +1,11 @@
 # contents of environment.yml
-name: api
+name: opentargets-api-env
 channels:
  - conda-forge
  - bioconda
 dependencies:
  - pandas
+ - xlwt
  - r-ghql
  - r-irkernel
  - ipykernel
