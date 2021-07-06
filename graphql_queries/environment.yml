@@ -1,0 +1,16 @@
+# contents of environment.yml
+name: api
+channels:
+ - conda-forge
+ - bioconda
+dependencies:
+ - pandas
+ - r-ghql
+ - r-irkernel
+ - ipykernel
+ - bash_kernel
+ - papermill
+ - gcsfs==0.2.3
+ - pip
+ - pip: 
+   - opentargets
