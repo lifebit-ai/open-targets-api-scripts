@@ -1,0 +1,14 @@
+{
+  "query": "{
+    studiesAndLeadVariantsForGeneByL2G(geneId: \"ENSG00000158158\") {
+      variant {
+        id
+        rsId
+      }
+      study {
+        studyId
+        traitReported
+      }
+    }
+  }"
+}
